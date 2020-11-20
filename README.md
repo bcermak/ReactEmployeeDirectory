@@ -4,15 +4,13 @@
 
 ## User Story ##
 
+Users want an application that displays all employees. Users then want to be able to filter through employees by name. 
 
 ## Technologies Used ##
+* Javascript/JSX
+* CSS
 * NodeJS
-* Javascript
-* package.json
-* .gitignore
-* NPM-Init
-* Express / Router
-
+* React
 
 ## Deployed Application ##
 
@@ -20,10 +18,8 @@ Heroku: https://user-directoryy.herokuapp.com/
 
 GitHub Repository: https://github.com/bcermak/userDirectory
 
-Step 1 - 
+Screenshot
 
-<img src = "" alt = "">
+<img src = "public\images\appscreenshot.JPG" alt = "screenshot">
 
-Step 2 - 
 
-<img src = "" alt = "">
