@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Brandon",
+    "jobTitle": "Programmer",
+    "location": "Austin"
+  },
+  {
+    "id": 1,
+    "name": "Bob",
+    "jobTitle": "HR",
+    "location": "Austin"
+  },
+  {
+    "id": 1,
+    "name": "Bill",
+    "jobTitle": "Accountant",
+    "location": "Corpus Christi"
+  },
+  {
+    "id": 1,
+    "name": "Sean",
+    "jobTitle": "Client Success",
+    "location": "Austin"
+  },
+  {
+    "id": 1,
+    "name": "Ralph",
+    "jobTitle": "Sales",
+    "location": "Austin"
+  },
+  {
+    "id": 1,
+    "name": "Jude",
+    "jobTitle": "Sales",
+    "location": "Austin"
+  }
+  
+]
