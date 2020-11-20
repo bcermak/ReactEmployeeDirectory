@@ -6,7 +6,7 @@ function EmployeeCard(props) {
     <body style ={{backgroundColor: "grey"}}>
         <div className="card">
           <div className="img-container">
-            <img alt="userImage" src="http://images.clipartpanda.com/user-clipart-matt-icons_preferences-desktop-personal.png" />
+            <img alt={props.name} src={props.image} />
           </div>
           <div className="content">
             <ul>
