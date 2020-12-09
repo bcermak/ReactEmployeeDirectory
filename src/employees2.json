@@ -1,0 +1,55 @@
+{
+    "main":{
+      "employees1": [
+        {
+          "id": 1,
+          "name": "Brandon",
+          "jobTitle": "Programmer",
+          "location": "Austin",
+          "image": "http://images.clipartpanda.com/user-clipart-matt-icons_preferences-desktop-personal.png"
+        },
+        {
+          "id": 1,
+          "name": "Bob",
+          "jobTitle": "HR",
+          "location": "Austin",
+          "image": "http://images.clipartpanda.com/user-clipart-matt-icons_preferences-desktop-personal.png"
+        },
+        {
+          "id": 1,
+          "name": "Bill",
+          "jobTitle": "Accountant",
+          "location": "Corpus Christi",
+          "image": "http://images.clipartpanda.com/user-clipart-matt-icons_preferences-desktop-personal.png"
+        }
+      ],
+    "employees2": [
+      {
+        "id": 1,
+        "name": "Sean",
+        "jobTitle": "Client Success",
+        "location": "Austin",
+        "image": "http://images.clipartpanda.com/user-clipart-matt-icons_preferences-desktop-personal.png"
+      },
+      {
+        "id": 1,
+        "name": "Ralph",
+        "jobTitle": "Sales",
+        "location": "Austin",
+        "image": "http://images.clipartpanda.com/user-clipart-matt-icons_preferences-desktop-personal.png"
+      },
+      {
+        "id": 1,
+        "name": "Jude",
+        "jobTitle": "Sales",
+        "location": "Austin"
+      }
+    ]
+    }
+  }
+    
+  
+  
+    
+  
+  

@@ -3,7 +3,7 @@ import "./style.css";
 
 function EmployeeCard(props) {
   return (
-    <body style ={{backgroundColor: "grey"}}>
+    <div style ={{ backgroundColor: "grey", marginRight:"5px"}}>
         <div className="card">
           <div className="img-container">
             <img alt={props.name} src="\images\User_icon_BLACK-01.png" />
@@ -23,7 +23,7 @@ function EmployeeCard(props) {
           </div>
         </div>
         
-    </body>
+    </div>
   );
 }
 
