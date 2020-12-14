@@ -13,13 +13,13 @@ function DataBody({ users }) {
   }
 
   return (
-    <tbody>
+    <tbody className="tbody">
       {users[0] !== undefined && users[0].name !== undefined ? (
-        users.map(({ login, name, picture, phone, email, dob }) => {
+        users.map(({ login, name, picture, phone, email, location }) => {
           return (
-            <tr key={login.uuid}>
+            <tr className="userColumn" key={login.uuid}>
               <td data-th="Image" className="align-middle">
-                <img
+                <img style={{border: 'solid rgb(55, 19, 139)'}}
                   src={picture.medium}
                   alt={"profile image for " + name.first + " " + name.last}
                   className="img-responsive"
@@ -31,13 +31,13 @@ function DataBody({ users }) {
               <td data-th="Phone" className="align-middle">
                 {phone}
               </td>
+              <td data-th="Location" className="align-middle">
+                {location.city +", " + location.state}
+              </td>
               <td data-th="Email" className="align-middle">
                 <a href={"mailto:" + email} target="__blank">
                   {email}
                 </a>
-              </td>
-              <td data-th="DOB" className="align-middle">
-                {formatDate(dob.date)}
               </td>
             </tr>
           );

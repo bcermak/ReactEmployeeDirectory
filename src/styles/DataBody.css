@@ -1,3 +1,14 @@
 .name-cell {
     text-transform: capitalize;
 }
+
+.tbody {
+    background-color: rgb(0, 217, 255);
+    opacity: 97%;
+
+}
+
+.userColumn {
+    border: solid rgb(55, 19, 139);
+    border-style: ridge;
+}

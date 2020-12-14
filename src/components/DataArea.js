@@ -12,11 +12,11 @@ export default class DataArea extends Component {
   }
 
   headings = [
-    { name: "Image", width: "10%" },
+    { name: "Image", width: "5%" },
     { name: "Name", width: "10%" },
-    { name: "Phone", width: "20%" },
-    { name: "Email", width: "20%" },
-    { name: "DOB", width: "10%" }
+    { name: "Phone", width: "10%" },
+    { name: "Location", width: "10%"},
+    { name: "Email", width: "10%" }
   ]
 
   handleSort = heading => {

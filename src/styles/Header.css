@@ -1,9 +1,12 @@
 .header {
     padding: 30px 0;
     color: black;
-    background-color: #4776f8;
+    background-color: rgb(0, 217, 255);
     width: 100%;
     text-align: center;
-    border-bottom: 5px solid #ff78ed;
+    border-bottom: 5px solid blueviolet;
     margin-bottom: 10px;
+    font: arial;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 blueviolet, 1px -1px 0 blueviolet, -1px 1px 0 blueviolet, 1px 1px 0 blueviolet;
 }
