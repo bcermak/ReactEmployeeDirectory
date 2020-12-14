@@ -32,7 +32,7 @@ function DataBody({ users }) {
                 {phone}
               </td>
               <td data-th="Location" className="align-middle">
-                {location.city +", " + location.state}
+                {location.city} 
               </td>
               <td data-th="Email" className="align-middle">
                 <a href={"mailto:" + email} target="__blank">
