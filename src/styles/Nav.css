@@ -1,12 +1,15 @@
 .navbar {
   padding: 20px 25px;
   margin: 0 auto;
+  width: 20%;
+  background-color: rgba(89, 60, 255, 0.363);
 }
 
 .navbar-collapse {
   margin: 0 auto;
   justify-content: center;
   align-items: flex-start;
+  background-color: rgba(89, 60, 255, 0.363);
 }
 
 .search-area {
