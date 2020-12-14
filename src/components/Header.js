@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <div className="header">
         <h1>Employee Directory</h1>
-        <p>Sort by clicking the title of each column, or by using the search function</p>
+        <p>Sort by name, or by using the search function</p>
       </div>
     )
   }
